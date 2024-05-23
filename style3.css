@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #aaa;
+  padding: 15px;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+#hero {
+  background: #ddd;
+  text-align:center;
+  font-size:60px;
+  padding: 50px 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-panel {
+  background-color: #eee;
+}
+.right-panel {
+  background-color: #aaa;
+}
+
+.col-1 {
+  width: calc((1/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-2 {
+  width: calc((2/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-3 {
+  width: calc((3/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-4 {
+  width: calc((4/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-5 {
+  width: calc((5/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-6 {
+  width: calc((6/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-7 {
+  width: calc((7/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-8 {
+  width: calc((8/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-9 {
+  width: calc((9/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-10 {
+  width: calc((10/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-11 {
+  width: calc((11/12)*100% - 28px);
+  padding: 0 14px;
+}
+.col-12 {
+  width: calc((12/12)*100% - 28px);
+  padding: 0 14px;
+}
