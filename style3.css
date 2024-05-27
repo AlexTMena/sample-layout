@@ -84,3 +84,56 @@ main {
   width: calc((12/12)*100% - 28px);
   padding: 0 14px;
 }
+.article{
+  padding: 10px;
+  margin: 10px;
+  border: 1px dashed black;
+}
+.article h3, .article h4, .article p{
+  margin: 5px;
+}
+.article h3, .article h4{
+  text-align: center;
+}
+.title{
+  font-size: 2.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.article p{
+  text-indent: 20px;
+  text-align: justify;
+}
+.sidebar{
+  padding:20px;
+}
+.month-article > ul > li{
+  margin-left: 30px; 
+}
+.cards{
+  display: flex;
+  background-color: #ccc;
+  padding: 10px;
+}
+.card{
+  text-align: center;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height: 70px;
+  font-size: large;
+  font-weight: 600;
+}
+.back-to-top{
+  font-size: 4em;
+  right: 0px;
+  bottom: 0px;
+  position: fixed;
+}
+html{
+  scroll-behavior: smooth;
+}
+
